@@ -69,7 +69,40 @@ sharks.unshift("Mako") # Adds to the beginning
 # 3.2 Remove Elements:-
 
 sharks.pop # Removes last element
-puts sharks
+#puts sharks
 sharks.shift # Removes first element
+#puts sharks
 sharks.delete("Tiger") # Removes specific element
+#puts sharks
+
+# 3.3 Update Elements:-
+
+sharks[0] = "Bull Shark"
+#puts sharks
+
+
+
+=begin
+=============================================================
+4. Iterating Over Arrays
+=============================================================
+=end
+
+## Ruby provides several ways to loop through arrays:
+
+# 4.1 Using each:
+
+#puts sharks
+
+sharks.each do |shark|
+  puts shark
+end
+
+
+
+# 4.2 Using for..in:
+
+for shark in sharks do
+  puts shark
+end
 
